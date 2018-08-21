@@ -36,7 +36,7 @@ a:hover{
 }
 a:active{
 	text-decoration: underline;
-	color: #41f4a3;
+	color: #f900ff;
 }
 strong {
 	background-color: #f9ccfc;
@@ -45,7 +45,7 @@ strong {
 	padding: 3px;
 }
 .nota {
-	color: gray;
+	opacity: 0.5;
 }
 iframe{
 	display: block;
