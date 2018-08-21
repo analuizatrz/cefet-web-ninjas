@@ -1,0 +1,48 @@
+body {
+	margin: 1% 20% 1% 20%;
+	background-image: url(../img/background.png);
+}
+#logo {
+	width: 200px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+img:not(#logo) {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1, h2{
+	font-family: ubuntu mono;
+}
+a[href^="http"] {
+  background-image: url(../img/globo.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding-left: 3%;
+}
+a:link {
+	text-decoration: unset;
+	color: #425ff4;
+}
+a:visited{
+	text-decoration: unset;
+	color: #8341f4;
+}
+a:hover{
+	text-decoration: underline;
+	color: #41ebf4;
+}
+a:active{
+	text-decoration: underline;
+	color: #41f4a3;
+}
+strong {
+	background-color: #f9ccfc;
+	color: #ef006b;
+	font-size: 20px;
+}
+.nota {
+	color: gray;
+}
